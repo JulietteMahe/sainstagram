@@ -99,7 +99,7 @@
 }
     
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 768px) and (max-width: 1024px){
     .post-card {
         width: 450px;
         height: 450px;
@@ -110,7 +110,6 @@
         margin-right: 20px;
         margin-bottom: 10px;
         background-color: rgba(255, 255, 255, 0.808);
-        /*opacity: 0.85;*/
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         border-radius: 5px;
     }
@@ -123,10 +122,8 @@
     .img-container {
         display: flex;
         align-self: center;
-        /* margin: 20px; */
         height: 150px;
         width: 300px;
-    
     }
     
     .post-img { 
@@ -153,7 +150,6 @@
         font-size: 12px;
         text-align: left;
         margin-left: 7%;
-        
     }
 
     .like-container{
@@ -161,3 +157,60 @@
     }
 }
 
+@media screen and (min-width: 1025px) {
+    .post-card {
+        width: 450px;
+        height: 450px;
+        color: --text-color;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+        background-color: rgba(255, 255, 255, 0.808);
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        border-radius: 5px;
+    }
+    
+    .Post-postname {  
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .img-container {
+        display: flex;
+        align-self: center;
+        height: 150px;
+        width: 300px;
+    }
+    
+    .post-img { 
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+        align-self: center;  
+        background-color: #272727;
+        opacity: 1;
+    }
+    
+    .who-posted {
+        font-weight: bold;
+    }
+    
+    .post-caption {
+        width: 345px;
+        font-size: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .post-date {
+        font-size: 12px;
+        text-align: left;
+        margin-left: 7%;
+    }
+
+    .like-container{
+        margin-bottom: 20px;
+    }
+}

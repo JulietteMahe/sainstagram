@@ -22,7 +22,7 @@
 
 .PlayerCard {
     width: 40%;
-    height: 90%;
+    height: 93%;
     color: var(--text-color);
     display: flex;
     flex-direction: column;
@@ -51,7 +51,7 @@
     color: white;
     text-shadow: 2px 2px 5px rgba(33,33,33,0.64);
     margin-top: 40px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     font-size: 28px;
 }
 
@@ -86,29 +86,29 @@ div.log {
     line-height: 30px;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 768px) and (max-width: 1024px){
     .BattleArena {
         height: 99%;
         width: 100%;
     }
     .Arena {
-        height: 69vh;  
+        height: 70vh;  
         padding-top: 20px;
     }
     .players {
         justify-content: space-evenly;
-        height: 50%;
+        height: 53%;
     }
     .PlayerCard {
-        width: 20%;
-        height: 90%;
+        width: 12%;
+        height: 100%;
         background-color: rgba(255,255,255, 0.7);
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         border-radius: 5px;
         box-shadow: 6px 6px 5px 0px rgba(33,33,33,0.64);
     }
     .VS {
-        font-size: 124pt;
+        font-size: 94pt;
     }
     .titleArena {
         position: top;
@@ -138,4 +138,58 @@ div.log {
         width:100px; 
         margin-top: 10px;
     }
-}    
+}  
+
+@media screen and (min-width: 1025px){
+    .BattleArena {
+        height: 99%;
+        width: 100%;
+    }
+    .Arena {
+        height: 70vh;  
+        padding-top: 20px;
+    }
+    .players {
+        justify-content: space-evenly;
+        height: 53%;
+    }
+    .PlayerCard {
+        width: 12%;
+        height: 100%;
+        background-color: rgba(255,255,255, 0.7);
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        border-radius: 5px;
+        box-shadow: 6px 6px 5px 0px rgba(33,33,33,0.64);
+    }
+    .VS {
+        font-size: 94pt;
+    }
+    .titleArena {
+        position: top;
+        margin-bottom: 25px;
+        font-family: 'Allan', cursive;
+        font-size: 40px;
+    }
+    .pannel {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 25%;
+    }
+    div.log {
+        width: 500px;
+        height: 80px;
+        margin: 10px;
+        border-radius: 5px;
+        text-align: center;
+        line-height: 40px;
+        font-family: 'Covered By Your Grace', cursive;
+        font-size: 20px;
+    }
+    .Arena button {
+        height:20px; 
+        width:100px; 
+        margin-top: 10px;
+    }
+}

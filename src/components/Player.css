@@ -94,22 +94,22 @@
     }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 768px) and (max-width: 1024px){
     .Player {
-        width: 230px;
-        height: 375px;
+        width: 200px;
+        height: 320px;
         margin: 10px;
         margin-top: 13px;
         perspective: 1000px;
     }
     .Player img {
-        height: 250px;
-        width: 200px;
+        height: 70%;
+        width: 80%;
         margin-top: 13px;
     }
     .player-name {
         margin: 10px;
-        margin-bottom: 13px;
+        margin-bottom: 0px;
     }
     .total-life {
         width: 100%;
@@ -126,3 +126,38 @@
         perspective: 1000px;
     }
 }
+
+@media screen and (min-width: 1025px){
+    .Player {
+        width: 260px;
+        height: 375px;
+        margin: 10px;
+        margin-top: 20px;
+        perspective: 1000px;
+    }
+    .Player img {
+        height: 70%;
+        width: 80%;
+        margin-top: 13px;
+    }
+    .player-name {
+        margin: 10px;
+        margin-bottom: 0px;
+    }
+    .total-life {
+        width: 100%;
+        height: 30px;
+    }
+    .Life {
+        height: 30px;
+        width: 200px;
+    }
+    .hit {
+        animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+        transform: translate3d(0, 0, 0);
+        backface-visibility: hidden;
+        perspective: 1000px;
+    }
+}
+
+

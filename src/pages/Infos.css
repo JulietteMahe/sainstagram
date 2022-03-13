@@ -18,7 +18,7 @@
     align-items: center;
     text-align: center;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 768px) and (max-width: 1023px){
 .Infos {
     height: 83vh;
     width: 100%;
