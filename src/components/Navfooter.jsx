@@ -21,9 +21,6 @@ const Navfooter = () => {
             <NavLink to="/reels" className='navigation-link'>
                 <img className='foot-icon' src={video} alt="video-button" />
             </NavLink>
-            <a href="/battle/9/5" className='navigation-link'>
-                <img className='foot-icon' src={send2} alt="send-button" />
-            </a>
             <a href="/profil/6">
                 <img src="https://i.ibb.co/5402THJ/saori-profilepic.jpg" alt="Saori Kido" className="foot-icon-profile" />
             </a>

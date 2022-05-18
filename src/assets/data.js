@@ -1,4 +1,4 @@
-const data = {
+/*const data = {
     5: {"id": 5, "name":"Iysha", "profilepic":"/images/ib.png",
         "abilities": ["Babe de la mort qui tue","WTF","Fuck my Mind",
         "Cocktail Porn Star"]},
@@ -7,4 +7,4 @@ const data = {
         "Coup de seins"]}
 };
             
-export default data;
+export default data;*/

@@ -18,7 +18,7 @@ const Profile = () => {
         //     setInfoProfile(response.data[0])});
         // Due to the lost API, we have to change this. The new API does not permit to read for an id.
         Axios
-        .get(`https://api.jsonbin.io/b/6218fbd625fb1b26b188e317/3`)
+        .get(`https://api.jsonbin.io/b/6218fbd625fb1b26b188e317/4`)
         .then(response => setInfoProfile(response.data.find(item => item.id===parseInt(params.id))));
     }, [params.id])
 
